@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
-
 class Team extends React.Component{
     render() {
         const team=this.props.data.prismicTeam.data;
